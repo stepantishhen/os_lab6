@@ -1,0 +1,104 @@
+stischenko@stischenko:~/lab6$ ls
+Dir1  Dir2  README.md  task1  task1.c  task2  task2.c
+stischenko@stischenko:~/lab6$ ./task2
+Enter source directory: /etc
+Enter destination directory: Dir2
+Enter max number of concurrent processes: 10
+Process 1742 copied /etc/sysctl.conf (2209 bytes)
+Process 1744 copied /etc/modules (212 bytes)
+open source file: Permission denied
+Process 1745 copied /etc/lsb-release (104 bytes)
+Process 1750 copied /etc/nftables.conf (243 bytes)
+Process 1752 copied /etc/fuse.conf (694 bytes)
+Process 1753 copied /etc/logrotate.conf (586 bytes)
+Process 1751 copied /etc/ethertypes (1853 bytes)
+Process 1746 copied /etc/wgetrc (4942 bytes)
+Process 1754 copied /etc/passwd (1795 bytes)
+Process 1743 copied /etc/mke2fs.conf (744 bytes)
+Process 1749 copied /etc/bash_completion (45 bytes)
+Process 1748 copied /etc/issue.net (19 bytes)
+Process 1755 copied /etc/hosts.deny (711 bytes)
+Process 1757 copied /etc/profile (582 bytes)
+Process 1758 copied /etc/ld.so.cache (23535 bytes)
+Process 1756 copied /etc/locale.alias (2996 bytes)
+Process 1741 copied /etc/mime.types (75113 bytes)
+Process 1760 copied /etc/magic (111 bytes)
+Process 1759 copied /etc/magic.mime (111 bytes)
+Process 1761 copied /etc/legal (267 bytes)
+Process 1768 copied /etc/crontab (1136 bytes)
+Process 1763 copied /etc/group- (756 bytes)
+Process 1762 copied /etc/networks (91 bytes)
+Process 1774 copied /etc/subgid- (0 bytes)
+Process 1765 copied /etc/subuid (24 bytes)
+Process 1766 copied /etc/screenrc (3663 bytes)
+Process 1764 copied /etc/dhcpcd.conf (1429 bytes)
+Process 1770 copied /etc/usb_modeswitch.conf (1523 bytes)
+open source file: Permission denied
+Process 1773 copied /etc/shells (148 bytes)
+Process 1776 copied /etc/crypttab (54 bytes)
+Process 1771 copied /etc/services (12813 bytes)
+Process 1769 copied /etc/.resolv.conf.systemd-resolved.bak (648 bytes)
+Process 1772 copied /etc/pam.conf (552 bytes)
+Process 1767 copied /etc/debian_version (11 bytes)
+Process 1777 copied /etc/timezone (8 bytes)
+open source file: Permission denied
+Process 1780 copied /etc/environment (106 bytes)
+Process 1787 copied /etc/fstab (657 bytes)
+Process 1785 copied /etc/ld.so.conf (34 bytes)
+Process 1779 copied /etc/hdparm.conf (4436 bytes)
+Process 1784 copied /etc/sudo_logsrvd.conf (9804 bytes)
+Process 1778 copied /etc/sudo.conf (4343 bytes)
+open source file: Permission denied
+Process 1786 copied /etc/inputrc (1875 bytes)
+Process 1783 copied /etc/bash.bashrc (2319 bytes)
+Process 1788 copied /etc/sensors3.conf (10593 bytes)
+Process 1790 copied /etc/host.conf (92 bytes)
+Process 1789 copied /etc/manpath.config (5230 bytes)
+Process 1791 copied /etc/ca-certificates.conf (6288 bytes)
+Process 1792 copied /etc/hosts (225 bytes)
+Process 1796 copied /etc/hosts.allow (411 bytes)
+open source file: Permission denied
+Process 1793 copied /etc/subgid (24 bytes)
+Process 1794 copied /etc/group (836 bytes)
+Process 1795 copied /etc/xattr.conf (681 bytes)
+Process 1799 copied /etc/debconf.conf (2967 bytes)
+Process 1797 copied /etc/.updated (208 bytes)
+Process 1801 copied /etc/login.defs (12345 bytes)
+open source file: Permission denied
+Process 1802 copied /etc/adduser.conf (3444 bytes)
+Process 1806 copied /etc/multipath.conf (41 bytes)
+Process 1807 copied /etc/nanorc (11424 bytes)
+Process 1803 copied /etc/rpc (911 bytes)
+Process 1812 copied /etc/nsswitch.conf (526 bytes)
+Process 1804 copied /etc/subuid- (0 bytes)
+Process 1800 copied /etc/passwd- (1734 bytes)
+Process 1808 copied /etc/gprofng.rc (3986 bytes)
+Process 1813 copied /etc/issue (26 bytes)
+Process 1809 copied /etc/zsh_command_not_found (460 bytes)
+Process 1811 copied /etc/locale.gen (9563 bytes)
+Process 1810 copied /etc/bindresvport.blacklist (367 bytes)
+Process 1814 copied /etc/rsyslog.conf (1213 bytes)
+Process 1815 copied /etc/locale.conf (17 bytes)
+Process 1817 copied /etc/hostname (11 bytes)
+Process 1819 copied /etc/e2scrub.conf (685 bytes)
+Process 1818 copied /etc/overlayroot.conf (6920 bytes)
+Process 1825 copied /etc/gai.conf (2584 bytes)
+Process 1820 copied /etc/protocols (3144 bytes)
+Process 1823 copied /etc/machine-id (33 bytes)
+Process 1822 copied /etc/deluser.conf (1706 bytes)
+Process 1821 copied /etc/ucf.conf (1260 bytes)
+Process 1824 copied /etc/netconfig (767 bytes)
+Process 1816 copied /etc/libaudit.conf (191 bytes)
+stischenko@stischenko:~/lab6$ ls Dir2
+adduser.conf            deluser.conf  gprofng.rc   issue          logrotate.conf  nanorc            protocols      subuid-
+bash.bashrc             dhcpcd.conf   group        issue.net      lsb-release     netconfig         rpc            sudo.conf
+bash_completion         e2scrub.conf  group-       ld.so.cache    machine-id      networks          rsyslog.conf   sudo_logsrvd.conf
+bigfile.bin             environment   hdparm.conf  ld.so.conf     magic           nftables.conf     screenrc       sysctl.conf
+bindresvport.blacklist  ethertypes    host.conf    legal          magic.mime      nsswitch.conf     sensors3.conf  timezone
+ca-certificates.conf    file1.txt     hostname     libaudit.conf  manpath.config  overlayroot.conf  services       ucf.conf
+crontab                 file2.txt     hosts        locale.alias   mime.types      pam.conf          shells         usb_modeswitch.conf
+crypttab                fstab         hosts.allow  locale.conf    mke2fs.conf     passwd            subgid         wgetrc
+debconf.conf            fuse.conf     hosts.deny   locale.gen     modules         passwd-           subgid-        xattr.conf
+debian_version          gai.conf      inputrc      login.defs     multipath.conf  profile           subuid         zsh_command_not_found
+stischenko@stischenko:~/lab6$
+
